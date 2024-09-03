@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Maths</title>
+</head>
+<body>
+    <header>
+        <h1>Counter</h1>
+    </header>
+    <div class="main">
+    <div class="container">
+        <h2 id="ok">0</h2>
+        <input type="button" value="+" class="btn btn-danger" onclick="plus()">
+        <input type="button" value="-" class="btn btn-warning" onclick="minus()">
+    </div>
+
+</div>
+
+    <script>
+let i=0
+function plus(){
+
+    i++
+    document.getElementById("ok").innerHTML=i
+}
+function minus(){
+
+    i--
+    document.getElementById("ok").innerHTML=i
+}
+    </script>
+</body>
+</html>

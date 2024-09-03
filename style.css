@@ -1,0 +1,14 @@
+*
+body{
+     background: #FF4E50;
+  background: -webkit-linear-gradient(right, #FFFFFF, #B3B4B5);
+  background: linear-gradient(to left, #FFFFFF, #B3B4B5);
+}
+div{
+  text-align: center;
+}
+h1{
+  text-decoration: underline;
+  text-align: center;
+  color: cyan;
+}
